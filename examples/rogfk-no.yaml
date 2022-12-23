@@ -1,0 +1,12 @@
+apiVersion: fintlabs.no/v1alpha1
+kind: FINTOrgerator
+metadata:
+  name: rogfk-no
+  labels:
+    app.kubernetes.io/name: rogfk-no
+    app.kubernetes.io/instance: rogfk-no
+    app.kubernetes.io/version: latest
+    app.kubernetes.io/component: namespace
+    app.kubernetes.io/part-of: flais
+    fintlabs.no/team: flais
+    fintlabs.no/org-id: rogfk.no
