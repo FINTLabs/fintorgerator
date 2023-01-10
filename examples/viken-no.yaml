@@ -1,13 +1,13 @@
 apiVersion: fintlabs.no/v1alpha1
 kind: FINTOrganisation
 metadata:
-  name: rogfk-no
+  name: viken-no
   namespace: fint-organisation
   labels:
-    app.kubernetes.io/name: rogfk-no
-    app.kubernetes.io/instance: rogfk-no
+    app.kubernetes.io/name: viken-no
+    app.kubernetes.io/instance: viken-no
     app.kubernetes.io/version: latest
     app.kubernetes.io/component: namespace
     app.kubernetes.io/part-of: flais
     fintlabs.no/team: flais
-    fintlabs.no/org-id: rogfk.no
+    fintlabs.no/org-id: viken.no

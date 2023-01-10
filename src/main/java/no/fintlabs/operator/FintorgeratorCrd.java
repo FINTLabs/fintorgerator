@@ -8,7 +8,7 @@ import no.fintlabs.FlaisCrd;
 
 @Group("fintlabs.no")
 @Version("v1alpha1")
-@Kind("FINTOrgerator")
+@Kind("FINTOrganisation")
 public class FintorgeratorCrd extends FlaisCrd<FintorgeratorSpec> implements Namespaced {
 
     @Override
